@@ -1,3 +1,11 @@
+h2{
+	font-family: 'Indie Flower', cursive;
+}
+
+p{
+	font-family: 'Muli', sans-serif;
+}
+
 .box{
 	width: 220px;
 	height: 270px;
@@ -13,18 +21,12 @@
 	transition: all 1s ease;
 }
 
-h2{
-	font-family: 'Indie Flower', cursive;
-	color: #777777;
-}
-
 h5{
 	font-family: 'Josefin Sans', sans-serif;
+	color: black;
+	font-style: italic;
 }
 
-p{
-	font-family: 'Muli', sans-serif;
-}
 
 .box:hover{
 	padding-top: 20px;
@@ -34,3 +36,12 @@ p{
 	color: #04B4AE;
 	-webkit-transition: all .0.5s ease-in-out;
 }
+
+.icon-diamond,
+.icon-heart, 
+.icon-cup, 
+.icon-paperplane, 
+.icon-food {
+	font-size: 50px;
+}
+
